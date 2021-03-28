@@ -27,7 +27,7 @@ def create_hparams(hparams_string=None, verbose=False):
         load_mel_from_disk=False,
         training_files='filelists/audio_text_train_filelist.txt',
         validation_files='filelists/audio_text_test_filelist.txt',
-        text_cleaners=[],
+        text_cleaners=['english_cleaners'],
 
         ################################
         # Audio Parameters             #
